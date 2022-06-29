@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import TimesView from "../views/TimesView.vue";
+import GenerosView from "../views/GenerosView.vue";
 import ClassView from "../views/ClassView.vue";
 import PerfilView from "../views/PerfilView.vue";
 
@@ -14,9 +14,9 @@ const router = createRouter({
     },
 
     {
-      path: "/times",
-      name: "times",
-      component: TimesView,
+      path: "/g",
+      name: "Generos",
+      component: GenerosView,
     },
 
     {

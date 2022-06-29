@@ -11,7 +11,7 @@
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
         <li><RouterLink to="/">Home</RouterLink></li>
-        <li><RouterLink to="/Classificação">Sobre</RouterLink></li>
+        <li><RouterLink to="/g">Generos</RouterLink></li>
       </ul>
     </div>
     <div class="cl">
@@ -30,11 +30,17 @@
 </template>
 
 <style>
+
 header .menu-superior {
   justify-content: space-between;
   display: flex;
   align-items: center;
   float: left;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -57,5 +63,5 @@ header span {
   display: flex;
   padding-right: 20px;
 }
-.dropdown-menu{}
+
 </style>
